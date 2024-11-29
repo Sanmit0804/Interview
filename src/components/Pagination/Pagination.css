@@ -1,0 +1,31 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative
+}
+
+.pagination select{
+    position: absolute;
+    left: 50px;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pages button{
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.active{
+    background-color: rgb(150, 150, 224) !important;
+}

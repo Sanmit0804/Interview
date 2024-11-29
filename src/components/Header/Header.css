@@ -1,0 +1,62 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;   
+}
+
+.header .logo{
+    font-size: 20px;
+}
+
+.search-container{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.new-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.all-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    width: 500px;
+    margin: 0 20px;
+    padding: 5px;
+    border: none;
+}
+.search-bar:active{
+    border: none;
+}
+
+.nav-buttons button{
+    margin: 0 5px;
+}
+
+.nav-buttons{
+    display: flex;
+
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.header .profile-pic{
+    width: 40px;
+    height: 40px;
+}

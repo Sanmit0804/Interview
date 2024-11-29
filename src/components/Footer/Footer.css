@@ -1,0 +1,22 @@
+.footer{
+    border-top: 1px solid black;
+    margin-top: 20px;
+    background-color:#222222;
+    color: white;
+    padding: 10px;
+}
+
+.footer .social-icons {
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.footer .social-icons button {
+    background-color: white;
+    border: none;
+    margin: 4px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
